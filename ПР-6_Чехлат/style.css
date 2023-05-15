@@ -1,0 +1,49 @@
+.composition {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background: url(./img/bg.jpg);
+}
+.comp-item {
+position: absolute;
+}
+.comp-item.planet-1 {
+    top: 23px;
+    left: 186px;
+    z-index: 1;
+
+}
+.comp-item.planet-2 {
+    top: 66px;
+    left: 51px;
+    z-index: 2;
+}
+.comp-item.planet-3 {
+    top: 140px;
+    left: 160px;
+    z-index: 4;
+
+}
+.comp-item.spaceship {
+    top: 160px;
+    left: 150px;
+    z-index: 3;
+}
+.comp-item.superman {
+    top: 330px;
+    left: 500px;
+    z-index: 7;
+
+}
+.comp-item.asteroid {
+    top: 130px;
+    left: 500px;
+    z-index: 6;
+
+}
+.comp-item.ufo {
+    left: 150px;
+    top: 300px;
+    z-index: 5;
+
+}
